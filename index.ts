@@ -1,5 +1,5 @@
 import express from 'express';
-import diagnoses from './routes/diagnoses';
+import diagnoses from './src/routes/diagnoses';
 const app = express();
 
 app.use(express.json());
